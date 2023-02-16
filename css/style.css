@@ -41,6 +41,7 @@ header {
 }
 
 /* styling banner section  */
+
 .banner-description {
   padding: 100px 200px;
   text-align: center;
@@ -75,9 +76,9 @@ img {
 }
 
 /* styling main section  */
+
 .main-top-section {
   display: flex;
-  /* justify-content: center; */
   gap: 70px;
   padding: 50px;
   width: auto;
@@ -91,10 +92,77 @@ img {
   padding-left: 120px;
 }
 
-.main-top-description{
+/* styling article section  */
+
+.article-section {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
+  margin-bottom: 100px;
+}
+
+.flex-item {
+  width: 50%;
+}
+
+.img {
+  width: 50%;
+}
+
+.descriptions {
+  margin-left: 50px;
+}
+
+.article-heading {
+  margin-left: 25px;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+  border-left: 5px solid gold;
+  padding-left: 25px;
+}
+
+.article-description {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.cart {
+  background: white;
+  border-radius: 10px;
+  padding: 15px 30px;
+  width: 450px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  margin-left: 68px;
+}
+
+.cart-heading {
+  margin-bottom: 10px;
+}
+
+/* styling facts section  */
+
+.fact-info {
+  margin-left: 68px;
+}
+
+.facts-heading {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+
+.activities {
+  width: 45.22px;
+  border: 2px solid red;
+  padding: 25px 45px;
+  border-radius: 5px;
+}
+
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 150px;
 }
