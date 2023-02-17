@@ -280,3 +280,132 @@ img {
   border-radius: 8px;
   padding: 20px 80px;
 }
+
+
+/* styling responsive for mobile device */
+
+@media (max-width:576px) {
+
+  /* nav responsive */
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .nav-tabs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* banner responsive */
+
+  .banner-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .main-top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .top-heading {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .top-paragraph {
+    text-align: center;
+  }
+
+  /* article responsive */
+
+  .article-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .article-description {
+    text-align: center;
+  }
+
+  .cart {
+    width: 180px;
+    margin-top: 20px;
+  }
+
+  .img img {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .extra-btn {
+    margin-top: 100px;
+    margin-left: 60px;
+  }
+
+  /* boxes responsive */
+
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .activities {
+    margin-bottom: 30px;
+  }
+
+  .activities:hover {
+    transform: rotate(120deg);
+  }
+
+  /* footer responsive */
+
+  .company-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .company-icons img {
+    margin-bottom: 30px;
+  }
+
+  .last-title {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+.hide {
+  display: none;
+}
